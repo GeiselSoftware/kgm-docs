@@ -2,12 +2,12 @@
 
 ## Installation
 
-### local `pip install`
+### using installer script
 
 ```
-$ python3 -m venv ~/venv/kgm
-$ source ~/venv/kgm/bin/activate
-$ pip install py-packages/kgm
+wget https://github.com/GeiselSoftware/kgm/blob/main/py-packages/kgm/kgm-installer
+chmod 755 ./kgm-installer
+./kgm-installer
 ```
 
 ## How K<span/>GM manages graphs?
