@@ -4,10 +4,15 @@
 
 ### using installer script
 
+Install for system-wide use using release wheel archive:
 ```
-wget https://github.com/GeiselSoftware/kgm/blob/main/py-packages/kgm/kgm-installer
-chmod 755 ./kgm-installer
-./kgm-installer
+curl -O https://raw.githubusercontent.com/GeiselSoftware/kgm/refs/heads/main/py-packages/kgm-installer.py
+python kgm-installer.py <wheel-url>
+```
+
+Install to current virtual env using github source code location:
+```
+pip install git+https://github.com/GeiselSoftware/kgm.git#subdirectory=py-packages/kgm
 ```
 
 ## How K<span/>GM manages graphs?

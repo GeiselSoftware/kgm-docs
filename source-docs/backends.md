@@ -28,7 +28,7 @@ Linux
 cd $FUSEKI_HOME
 mkdir run
 cd run
-wget https://geiselsoftware.github.io/KGM-docs/backends/fuseki/config-kgm.ttl
+wget https://geiselsoftware.github.io/kgm-docs/backends/fuseki/config-kgm.ttl
 cd $FUSEKI_HOME
 ./fuseki-server --config=run/config-kgm.ttl
 ```
@@ -37,7 +37,7 @@ Windows
 cd %FUSEKI_HOME%
 mkdir run
 cd run
-curl -O https://geiselsoftware.github.io/KGM-docs/backends/fuseki/config-kgm.ttl
+curl -O https://geiselsoftware.github.io/kgm-docs/backends/fuseki/config-kgm.ttl
 cd %FUSEKI_HOME%
 fuseki-server --config=run/config-kgm.ttl
 ```
