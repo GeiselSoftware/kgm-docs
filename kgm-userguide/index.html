@@ -509,9 +509,8 @@
 <p><em>kgm</em> is command-line processor utility which allows user to control and manipulate K<span/>GM-controlled graphs in backend graph database.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
 <h3 id="using-installer-script">using installer script<a class="headerlink" href="#using-installer-script" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>wget https://github.com/GeiselSoftware/kgm/blob/main/py-packages/kgm/kgm-installer
-chmod 755 ./kgm-installer
-./kgm-installer
+<div class="highlight"><pre><span></span><code>curl -O https://raw.githubusercontent.com/GeiselSoftware/kgm/refs/heads/main/py-packages/kgm-installer
+python kgm-installer &lt;wheel-url&gt;
 </code></pre></div>
 <h2 id="how-kgm-manages-graphs">How K<span/>GM manages graphs?<a class="headerlink" href="#how-kgm-manages-graphs" title="Permanent link">&para;</a></h2>
 <p><abbr title="https://geiselsoftware.github.io/KGM-docs/">KGM</abbr> provides the way to organize the knowledge graphs in the way similar to files in traditional filesystem. It does that using particular feature which is a part of <abbr title="https://www.w3.org/TR/rdf12-turtle/ &quot;Resource Description Framework - Turtle&quot;">RDF</abbr> definitions: fourth entry of <abbr title="https://www.w3.org/TR/rdf12-concepts/#section-triples">RDF triple</abbr>.</p>
