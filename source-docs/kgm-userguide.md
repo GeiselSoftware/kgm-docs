@@ -4,10 +4,10 @@
 
 ### using installer script
 
-Install for system-wide use using release wheel archive:
+Install for system-wide use using the latest release:
 ```
 curl -O https://raw.githubusercontent.com/GeiselSoftware/kgm/refs/heads/main/py-packages/kgm-installer.py
-python kgm-installer.py <wheel-url>
+python kgm-installer.py
 ```
 
 Install to current virtual env using github source code location:
