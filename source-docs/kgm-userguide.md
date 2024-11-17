@@ -6,7 +6,7 @@
 
 Install for system-wide use using the latest release:
 ```
-curl -O https://raw.githubusercontent.com/GeiselSoftware/kgm/refs/heads/main/py-packages/kgm-installer.py
+curl -L -O https://github.com/GeiselSoftware/kgm/releases/download/kgm-installer/kgm-installer.py
 python kgm-installer.py
 ```
 
